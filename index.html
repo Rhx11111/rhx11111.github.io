@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Haoxiang Ren">
+  <meta name="description" content="Haoxiang Ren, master's student at LAMDA, Nanjing University, advised by Yang Yu. Research in embodied intelligence, world models, and reinforcement learning.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rhx11111.github.io/">
+  <meta property="og:title" content="Haoxiang Ren">
+  <meta property="og:description" content="Master's student at LAMDA, Nanjing University. Research in embodied intelligence, world models, and reinforcement learning.">
+  <title>Haoxiang Ren</title>
+  <link rel="canonical" href="https://rhx11111.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./template-base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#publications">Skip to publications</a>
+  <main class="site-shell">
+    <section class="profile no-portrait" aria-labelledby="profile-name">
+      <div class="profile-copy">
+        <h1 id="profile-name">Haoxiang Ren</h1>
+        <p class="position">I am a master's student in the <a href="https://www.lamda.nju.edu.cn/">LAMDA Group</a> at the <a href="https://ai.nju.edu.cn/">School of Artificial Intelligence</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a>, advised by Prof. <a href="https://www.lamda.nju.edu.cn/yuy/">Yang Yu</a>. I started my master's studies in 2026, after completing my undergraduate studies at the same school (2022–2026).</p>
+        <p>My research interests lie in <strong>embodied intelligence</strong>, <strong>world models</strong>, and <strong>reinforcement learning</strong>. I am interested in how world models can support efficient policy learning and reliable decision-making for robots.</p>
+        <p class="profile-links"><a href="mailto:renhx@lamda.nju.edu.cn">renhx@lamda.nju.edu.cn</a><span class="link-divider" aria-hidden="true">/</span><a href="https://scholar.google.com/citations?user=fYpW_tkAAAAJ&amp;hl=en">Google Scholar</a></p>
+      </div>
+    </section>
+    <section class="content-section" id="publications" aria-labelledby="research-heading">
+      <header class="section-header">
+        <h2 id="research-heading">Selected Publications</h2>
+        <p class="section-note">* Equal contribution. See <a href="https://scholar.google.com/citations?user=fYpW_tkAAAAJ&amp;hl=en">Google Scholar</a> for the full list.</p>
+      </header>
+      <div class="entry-list">
+        <article class="entry" id="when-to-trust-your-teacher">
+          <a class="entry-media" href="./assets/teacher-main.png" aria-label="View the full When to Trust Your Teacher figure"><img src="./assets/teacher-main.png" alt="UA-OPD: uncertainty-aware on-policy distillation for embodied policies, showing motivation, the student-teacher pipeline, uncertainty estimation, and results." width="2666" height="1500" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://openreview.net/pdf?id=hHUZi8oHfo">When to Trust Your Teacher: Uncertainty-Aware On-Policy Distillation for Embodied Policies</a></h3>
+            <p class="authors"><strong>Haoxiang Ren<sup>*</sup></strong>, Yifei Sheng<sup>*</sup>, Zhilong Zhang<sup>*</sup>, Runjie Xu, Bowen Lu, Haoxin Lin, Yang Yu</p>
+            <p class="venue"><strong>RSS Workshop</strong> on Diffusion for Robot Learning, 2026</p>
+            <p class="entry-links"><a href="https://openreview.net/pdf?id=hHUZi8oHfo">paper</a></p>
+            <p class="summary">UA-OPD uses teacher uncertainty to guide on-policy distillation, reducing reliance on unreliable teacher predictions when training embodied policies.</p>
+          </div>
+        </article>
+        <article class="entry" id="vla-mbpo">
+          <a class="entry-media" href="https://rhx11111.github.io/VLA-MBPO/" aria-label="VLA-MBPO project and framework figure"><img src="./assets/vla-mbpo-overview.jpg" alt="VLA-MBPO framework: multi-view world modeling, branched policy rollouts, and robot tasks." width="6934" height="2874" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://arxiv.org/abs/2603.20607">Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models</a></h3>
+            <p class="authors">Zhilong Zhang<sup>*</sup>, <strong>Haoxiang Ren<sup>*</sup></strong>, Yihao Sun<sup>*</sup>, Yifei Sheng, Haonan Wang, Haoxin Lin, Zhichao Wu, Pierre-Luc Bacon, Yang Yu</p>
+            <p class="venue"><strong>ICML</strong>, 2026</p>
+            <p class="entry-links"><a href="https://arxiv.org/abs/2603.20607">paper</a><span class="link-divider" aria-hidden="true">/</span><a href="https://rhx11111.github.io/VLA-MBPO/">project page</a><span class="link-divider" aria-hidden="true">/</span><a href="https://github.com/LAMDA-RL/VLA-MBPO">code</a></p>
+            <p class="summary">VLA-MBPO trains robot policies inside learned world models, combining consistent multi-view predictions with short, branched rollouts to make reinforcement learning more data-efficient.</p>
+          </div>
+        </article>
+        <article class="entry" id="speedup-patch">
+          <a class="entry-media" href="https://arxiv.org/abs/2603.20658" aria-label="Speedup Patch paper and method figure"><img src="./assets/speedup-patch.png" alt="Speedup Patch adds an adaptive scheduler between a generalist robot policy and an environment." width="635" height="244" loading="lazy" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://arxiv.org/abs/2603.20658">Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation</a></h3>
+            <p class="authors">Zhichao Wu<sup>*</sup>, Junyin Ye<sup>*</sup>, Zhilong Zhang<sup>*</sup>, Yihao Sun, Haoxin Lin, Jiaheng Luo, <strong>Haoxiang Ren</strong>, Lei Yuan, Yang Yu</p>
+            <p class="venue"><strong>ICML</strong>, 2026</p>
+            <p class="entry-links"><a href="https://arxiv.org/abs/2603.20658">paper</a></p>
+            <p class="summary">A lightweight scheduler learns from offline data to accelerate existing robot policies, using a world model to evaluate faster action sequences while preserving task success.</p>
+          </div>
+        </article>
+        <article class="entry" id="anticipation-vla">
+          <a class="entry-media" href="./assets/anticipation-vla.png" aria-label="View the full Anticipation-VLA framework figure"><img src="./assets/anticipation-vla.png" alt="Anticipation-VLA framework combining adaptive multimodal subgoals, a goal-conditioned policy, and a dynamic goal stack for long-horizon robotic tasks." width="1601" height="900" loading="lazy" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://arxiv.org/abs/2605.01772">Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation</a></h3>
+            <p class="authors">Zhilong Zhang<sup>*</sup>, Wenyu Luo<sup>*</sup>, Haonan Wang<sup>*</sup>, Yifei Sheng<sup>*</sup>, Yidi Wang, Hanyuan Guo, <strong>Haoxiang Ren</strong>, Xinghao Du, Yuhan Che, Tongtong Cao, Lei Yuan, Yang Yu</p>
+            <p class="venue"><em>arXiv preprint</em>, 2026</p>
+            <p class="entry-links"><a href="https://arxiv.org/abs/2605.01772">paper</a></p>
+            <p class="summary">An anticipation model adapts future subgoals as a task unfolds, guiding a goal-conditioned VLA policy through long-horizon robot tasks.</p>
+          </div>
+        </article>
+        <article class="entry" id="world-model-evaluation">
+          <a class="entry-media" href="./assets/world-model-evaluation.svg" aria-label="View the full evaluation framework, adapted from Table 7"><img src="./assets/world-model-evaluation.png" alt="Conceptual summary adapted from Table 7: L0–L3 assess artifact quality, while L4–L7 assess decision utility, from intervention fidelity to policy optimization and planning." width="1600" height="1000" loading="lazy" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://arxiv.org/abs/2606.15032">How Should World Models Be Evaluated for Embodied Decision-Making? A Decision-Making-Centric Position</a></h3>
+            <p class="authors">Yang Yu, Shiyuan Zhang, Yifei Sheng, <strong>Haoxiang Ren</strong>, Haoxin Lin</p>
+            <p class="venue"><em>arXiv preprint</em>, 2026</p>
+            <p class="entry-links"><a href="https://arxiv.org/abs/2606.15032">paper</a></p>
+            <p class="summary">A perspective on evaluating world models through their usefulness for intervention, policy evaluation, planning, and policy improvement.</p>
+          </div>
+        </article>
+        <article class="entry" id="whale">
+          <a class="entry-media" href="./assets/whale-overview.png" aria-label="View the full WHALE architecture figure"><img src="./assets/whale-overview.png" alt="WHALE architecture combining behavior conditioning, a video tokenizer, and a dynamics model for visual prediction." width="1489" height="567" loading="lazy" decoding="async"></a>
+          <div class="entry-copy">
+            <h3><a class="paper-title" href="https://openreview.net/forum?id=NY2uoM3J6l">WHALE: Towards Generalizable and Scalable World Models for Embodied Decision-making</a></h3>
+            <p class="authors">Zhilong Zhang<sup>*</sup>, Ruifeng Chen<sup>*</sup>, Junyin Ye<sup>*</sup>, Yihao Sun, <strong>Haoxiang Ren</strong>, Xinghao Du, Pengyuan Wang, Jing-Cheng Pang, Kaiyuan Li, Tian-Shuo Liu, Haoxin Lin, Yang Yu, Zhi-Hua Zhou</p>
+            <p class="venue"><strong>NeurIPS Workshop</strong> on Embodied World Models for Decision Making, 2025</p>
+            <p class="entry-links"><a href="https://openreview.net/forum?id=NY2uoM3J6l">paper</a><span class="link-divider" aria-hidden="true">/</span><a href="https://neurips.cc/virtual/2025/loc/san-diego/124016">workshop page</a></p>
+            <p class="summary">A world-model framework for embodied decision-making that studies generalization across environments and the benefits of scaling training data.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer class="site-footer"><p>© 2026 Haoxiang Ren</p><p><a href="https://github.com/leonidk/leonidk.github.io">Template</a> · Inspired by <a href="https://www.yihaosun.cn/">Yihao Sun</a></p></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<title>World-model evaluation: artifact quality and decision utility</title>
+<desc>Conceptual summary adapted from Table 7 of Yu et al., 2026. Levels L0–L3 concern artifact quality; levels L4–L7 concern decision utility. These are evidence levels, not a single score.</desc>
+<rect width="1600" height="1000" fill="white"/>
+<text x="52" y="38" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="700" fill="#24374e">World-model evaluation</text>
+<rect x="52" y="150" width="724" height="730" rx="16" fill="#f3f6fa" stroke="#dce3eb" stroke-width="2"/>
+<text x="84" y="182" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" fill="#53677f">Artifact quality</text>
+<text x="86" y="247" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="400" fill="#53677f">L0–L3  ·  Evidence levels</text>
+<rect x="84" y="299" width="660" height="2" rx="0" fill="#dce3eb" stroke="none" stroke-width="2"/>
+<rect x="84" y="332" width="66" height="66" rx="9" fill="white" stroke="#dce3eb" stroke-width="2"/>
+<text x="95" y="349" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#53677f">L0</text>
+<text x="174" y="339" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Visual plausibility</text>
+<rect x="84" y="464" width="66" height="66" rx="9" fill="white" stroke="#dce3eb" stroke-width="2"/>
+<text x="95" y="481" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#53677f">L1</text>
+<text x="174" y="471" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Logged-future</text>
+<text x="174" y="519" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">prediction</text>
+<rect x="84" y="596" width="66" height="66" rx="9" fill="white" stroke="#dce3eb" stroke-width="2"/>
+<text x="95" y="613" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#53677f">L2</text>
+<text x="174" y="603" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Semantic alignment</text>
+<rect x="84" y="728" width="66" height="66" rx="9" fill="white" stroke="#dce3eb" stroke-width="2"/>
+<text x="95" y="745" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#53677f">L3</text>
+<text x="174" y="735" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Physical plausibility</text>
+<rect x="824" y="150" width="724" height="730" rx="16" fill="#edf5ff" stroke="#bdd8f5" stroke-width="2"/>
+<text x="856" y="182" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" fill="#1772d0">Decision utility</text>
+<text x="858" y="247" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="400" fill="#1772d0">L4–L7  ·  Evidence levels</text>
+<rect x="856" y="299" width="660" height="2" rx="0" fill="#bdd8f5" stroke="none" stroke-width="2"/>
+<rect x="856" y="332" width="66" height="66" rx="9" fill="white" stroke="#bdd8f5" stroke-width="2"/>
+<text x="867" y="349" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1772d0">L4</text>
+<text x="946" y="339" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Interventional fidelity</text>
+<rect x="856" y="464" width="66" height="66" rx="9" fill="white" stroke="#bdd8f5" stroke-width="2"/>
+<text x="867" y="481" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1772d0">L5</text>
+<text x="946" y="471" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Reward, value</text>
+<text x="946" y="519" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">&amp; outcomes</text>
+<rect x="856" y="596" width="66" height="66" rx="9" fill="white" stroke="#bdd8f5" stroke-width="2"/>
+<text x="867" y="613" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1772d0">L6</text>
+<text x="946" y="603" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Policy evaluation</text>
+<text x="946" y="651" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">&amp; ranking</text>
+<rect x="856" y="728" width="66" height="66" rx="9" fill="white" stroke="#bdd8f5" stroke-width="2"/>
+<text x="867" y="745" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1772d0">L7</text>
+<text x="946" y="735" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">Policy optimization</text>
+<text x="946" y="783" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#24374e">&amp; planning</text>
+<text x="52" y="928" dominant-baseline="text-before-edge" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="400" fill="#667384">Conceptual summary · Adapted from Table 7, Yu et al. (2026)</text>
+</svg>
