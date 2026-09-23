@@ -22,7 +22,7 @@ If the GitHub account has a different name, the user-site repository and address
 
 Commit edits to `main`; GitHub Pages will publish the updated files. You can also open `index.html` locally to review changes.
 
-The homepage currently contains six papers. The `*` author markers indicate equal contribution, not correspondence.
+The homepage currently contains seven papers. The `*` author markers indicate equal contribution, not correspondence.
 
 ## Attribution
 
