@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">InCLET method summary</title>
+  <desc id="desc">Original conceptual illustration: a language instruction prompts an LLM to imagine task trajectories. In-context learning extracts a task embedding to condition an RL robot policy.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#597c9e" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="64" fill="#20282f" font-size="42" font-weight="700">InCLET</text>
+    <text x="760" y="59" text-anchor="end" fill="#67727e" font-size="23">Method summary</text>
+    <rect x="40" y="96" width="720" height="72" rx="12" fill="#f2f6fb" stroke="#cfdeed" stroke-width="2"/>
+    <text x="400" y="142" text-anchor="middle" fill="#284967" font-size="32">Language instruction</text>
+    <path d="M400 176 V190 H205 V205" fill="none" stroke="#597c9e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="40" y="220" width="330" height="98" rx="12" fill="#eaf3fc" stroke="#b9d4ed" stroke-width="2"/>
+    <text x="205" y="261" text-anchor="middle" fill="#20537f" font-size="29">LLM-imagined</text>
+    <text x="205" y="297" text-anchor="middle" fill="#20537f" font-size="29">task trajectories</text>
+    <path d="M380 269 H416" stroke="#597c9e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="430" y="220" width="330" height="98" rx="12" fill="#edf6f1" stroke="#c0ddcb" stroke-width="2"/>
+    <text x="595" y="261" text-anchor="middle" fill="#285e49" font-size="29">In-context</text>
+    <text x="595" y="297" text-anchor="middle" fill="#285e49" font-size="29">task embedding</text>
+    <path d="M595 326 V350 H400 V366" fill="none" stroke="#597c9e" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="40" y="380" width="720" height="68" rx="12" fill="#f2f6fb" stroke="#cfdeed" stroke-width="2"/>
+    <text x="400" y="424" text-anchor="middle" fill="#284967" font-size="32">Instruction-following RL policy</text>
+    <text x="400" y="481" text-anchor="middle" fill="#67727e" font-size="20">Conceptual illustration based on the TPAMI paper</text>
+  </g>
+</svg>

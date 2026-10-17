@@ -1,5 +1,12 @@
 # Content sources and figure attribution
 
+## InCLET TPAMI update - 17 October 2026
+
+- The fifth homepage entry is the journal article [InCLET: In-Context Learning Embeddings from LLM-Imagined Trajectories for Embodied Robot Instruction Following](https://doi.org/10.1109/TPAMI.2026.3743025), IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.
+- Title, all nine authors in order, journal, year, and the [IEEE Xplore article URL](https://ieeexplore.ieee.org/document/11735089/) follow the publisher-deposited [Crossref record](https://api.crossref.org/works/10.1109%2FTPAMI.2026.3743025). The record has no volume or issue. Its creation date is not presented as the online publication date. No equal-contribution marks are inferred from author order.
+- `assets/inclet-summary.svg` is an original conceptual illustration of the journal abstract: language instruction, LLM-imagined trajectories, an in-context task embedding, and an RL policy. It is labeled as a conceptual illustration and is not a figure extracted from the paper. The journal abstract was available in the [AMiner TPAMI listing](https://www.aminer.org/academic/journal/-/5ea19afeedb6e7d53c00ac33). The journal PDF was inaccessible during this update; no figure or author list from the different AAMAS 2025 version was substituted.
+- `CV/Haoxiang_Ren_CV.pdf` is the user's updated English CV, with this journal article in Full Publications. The existing representative publications and visual style are preserved.
+
 ## U-GROW update — 23 September 2026
 
 - Paper: [Prioritized Rollouts for Efficient World Model-based Vision-Language-Action Policy Optimization](https://arxiv.org/abs/2609.22879v1), arXiv preprint, 2026; submitted 19 September 2026. Title and all eleven authors follow version 1.
